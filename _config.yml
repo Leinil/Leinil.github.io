@@ -105,4 +105,4 @@ theme: Volantis
 deploy:
   type: git
   repo: git@github.com:Leinil/Leinil.github.io.git
-  branch: main
+  branch: gh-pages
