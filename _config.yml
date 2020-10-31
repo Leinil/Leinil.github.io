@@ -104,5 +104,5 @@ theme: Volantis
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/Leinil/Leinil.github.io.git
+  repo: git@github.com:Leinil/Leinil.github.io.git
   branch: main
