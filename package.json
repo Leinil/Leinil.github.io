@@ -29,9 +29,10 @@
   "yuqueConfig": {
     "baseUrl": "https://www.yuque.com/api/v2",
     "login": "skyell",
-    "repo": "Blog",
+    "repo": "yv1qwr",
     "mdNameFormat": "title",
-    "postPath": "source/_posts/yuque"
+    "postPath": "source/_posts/yuque",
+    "token": "ffZZZSV9NTt32A36fcPidA9fnKaHcJaGxucWOafM"
   },
   "devDependencies": {
     "hexo-util": "^2.4.0",
