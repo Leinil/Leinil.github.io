@@ -31,7 +31,8 @@
     "login": "skyell",
     "repo": "yv1qwr",
     "mdNameFormat": "title",
-    "postPath": "source/_posts/yuque"
+    "postPath": "source/_posts/yuque",
+    "token": "dXLeTtzwmFfMTpSWg9VIg6C0WJb2C7mogkK14ikg"
   },
   "devDependencies": {
     "hexo-util": "^2.4.0",
