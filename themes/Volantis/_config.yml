@@ -2,7 +2,7 @@
 # 仅限/source/js/中的JS文件 
 # 默认使用 https://cdn.jsdelivr.net/npm/hexo-theme-volantis/source/js/ 的CDN压缩版本，注意版本号对应关系！！可以通过修改以下配置项覆盖
 # 开发者注意 use_cdn 设置为 false
-use_cdn: true 
+use_cdn: false 
 info:
   theme_name: Volantis # This is theme's name.
   theme_version: '4.1.5' # This is theme's version.
@@ -48,41 +48,29 @@ navbar:
 ############################### Cover ############################### > start
 cover:
   height_scheme: full # full, half
-  layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  layout_scheme: search   # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
     archive: true
     others: false # can be written in front-matter 'cover: true'
-  background: http://cdn.leilin.top/guidao.jpg # 鬼刀外链防止除本人域名访问
+  background: http://cdn.leilin.top/guidao.jpg # 鬼刀外链防止除本人域名访问 http://cdn.leilin.top/guidao.jpg?e=1606902372&token=xyLjUwNONFK8HgyhHibbtGqQkAQx6Z00vvRcgBRt:3Xl3oeHRGFvyj_wPZvbr_MFtHyY=
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
   title: 'Leiemi'
-  subtitle: ''
-  search: A Wonderful Theme for Hexo # search bar placeholder
+  subtitle: 'Yolo!'
+  search: 搜索文章 # search bar placeholder
   features:
-    - name: 文档
+    - name: 文章
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
-      url: /v4/getting-started/
-    - name: 帮助
+      url: /
+    - name: 归档
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg
-      url: faqs/
-    - name: 示例
+      url: timeLine/
+    - name: 标签
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg
-      url: /examples/
-    - name: 社区
-      icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg
-      url: /contributors/
-    - name: 博客
-      icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
-      url: /archives/
-    - name: 源码
-      icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
-      url: https://github.com/volantis-x/hexo-theme-volantis/
+      url: /tags/
 ############################### Cover ############################### > end
 
 pages:
@@ -158,8 +146,8 @@ article:
     meta_library:
       # 默认文章作者（可在 front-matter 中覆盖）
       author:
-        avatar:
-        name: 请设置文章作者
+        avatar: http://cdn.leilin.top/LeiemiAvatar.jpg
+        name: Leiemi
         url: /
       # 文章创建日期
       date:
