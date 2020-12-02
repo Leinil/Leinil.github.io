@@ -53,9 +53,9 @@ cover:
     home: true
     archive: true
     others: false # can be written in front-matter 'cover: true'
-  background: https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/033.jpg
+  background: http://cdn.leilin.top/guidao.jpg # 鬼刀外链防止除本人域名访问
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
-  title: 'Volantis'
+  title: 'Leiemi'
   subtitle: ''
   search: A Wonderful Theme for Hexo # search bar placeholder
   features:
