@@ -35,7 +35,7 @@
     "token": "dXLeTtzwmFfMTpSWg9VIg6C0WJb2C7mogkK14ikg"
   },
   "devDependencies": {
-    "hexo-util": "^2.4.0",
-    "yuque-hexo": "^1.6.5"
+    "yuque-hexo": "^1.6.5",
+    "hexo-util": "^2.4.0"
   }
 }
